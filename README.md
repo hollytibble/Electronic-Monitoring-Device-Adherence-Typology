@@ -5,8 +5,7 @@
 Welcome!  In this project I am running secondary analyses of a University of Auckland Electronic Monitoring Device (EMD) 
 intervention study which investigated whether audio-visual reminders can improve children's adherence to twice-daily inhaled corticosteroids.  The paper for the original study is entitled ["The effect of an electronic monitoring device with audiovisual reminder function on adherence to inhaled corticosteroids and school attendance in children with asthma: a randomised controlled trial"](https://www.ncbi.nlm.nih.gov/pubmed/25617215) (Chan et al., 2015, 3(3) Lancet Respiratory Medicine).
 
-The manuscript relating to this body of work is currently under review.  All source code will be made available here upon acceptance for publication, along with a pre-print.  The citation and a link to the paper will be added upon publication.
-
+The primary paper relating to this body of work was published in Scientific Reports on September 14th, 2020, and is available ["here"](https://www.nature.com/articles/s41598-020-72060-0)
 
 Thank you for visiting,
 
