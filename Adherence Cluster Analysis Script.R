@@ -26,7 +26,7 @@ set.seed(12345)
 ########################################################################################
 
 # Patients withdrawn from the trial
-Patients_withdrawn_from_trial <- read_excel("atients withdrawn from trial.xls")
+Patients_withdrawn_from_trial <- read_excel("Patients withdrawn from trial.xls")
 Patients_withdrawn_from_trial <- as.numeric(Patients_withdrawn_from_trial[[1]])
 Patients_withdrawn_from_trial <- Patients_withdrawn_from_trial[!is.na(Patients_withdrawn_from_trial)]
 
@@ -603,6 +603,10 @@ outcomes <- data %>%
   group_by(StudyID) %>%
   slice(1) %>%
   mutate(BLHowManyAttacksLast12Months = (BLHowManyAttacksLast12Months %in% c("None","    ","1-3 "))*1)
+
+# This file is used for the analysis presented in the conference paper, for
+# which the R script is also presented in this repository.
+save.image("Conference paper file.RData")
 
 ########################################################################################
 #      Analysis Setup
